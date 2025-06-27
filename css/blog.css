@@ -1,0 +1,22 @@
+/* body start  */
+#blog {
+  background-color: #f0f0f0;
+  color: #080808;
+  font-family: "Poppins", sans-serif;
+  padding: 8rem 10%;
+}
+/* body end */
+
+/* blog start */
+.blog h1 {
+  margin-bottom: 4rem;
+}
+/* blog end */
+
+/* contact start */
+.contact {
+  background-color: #080808;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+/* contact end */

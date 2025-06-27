@@ -1,0 +1,159 @@
+/* Breakpoint untuk smartphone (lebar layar kurang dari 576px, seperti iPhone) */
+
+@media (max-width: 575.98px) {
+  /* hero start */
+  .hero {
+    background-position: 65%;
+  }
+  .hero .left-column {
+    flex: 1 80%;
+  }
+  .left-column h2 {
+    font-size: 2rem;
+  }
+  .left-column p {
+    font-weight: 400;
+    color: white;
+    color: white;
+  }
+  /* hero end */
+
+  /* about start */
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+  .about .left-column {
+    align-items: center;
+    margin: 2rem;
+  }
+  .about .right-column {
+    margin-top: 2rem;
+  }
+  .right-column .tab-content .skills i {
+    font-size: 3rem;
+    padding: 10px;
+  }
+  .right-column .tab-content .skills i:hover {
+    transition: ease-in-out 0.7s;
+    transform: scale(1.2);
+  }
+  .right-column .tab-content .educations img {
+    margin: 0;
+  }
+  .right-column .tab-content .container ul li a {
+    margin: 0 10px;
+    display: flex;
+    padding: 10px 1rem;
+  }
+  /* about end */
+
+  /* project start */
+  .project {
+    margin: -5rem 0 5rem;
+  }
+
+  .project .container {
+    margin: 1rem 0;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project .col .teks ul li i {
+    border-radius: 20%;
+    font-size: 1rem;
+  }
+  .project .col .teks p {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .project .col .teks i {
+    padding: 14px;
+  }
+  /* project end */
+
+  /* contact start */
+  .contact {
+    display: flex;
+    flex-direction: column;
+    margin: -5rem 0 5rem;
+    background-position: 45%;
+  }
+  .contact .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact .right-column {
+    margin: 2 2rem;
+  }
+
+  .contact .left-column {
+    margin-bottom: 2rem;
+  }
+  .left-column ul li {
+    width: 100%;
+  }
+  .left-column h3 {
+    font-size: 2rem;
+  }
+  /* contact end */
+}
+
+/* Breakpoint untuk iPad (lebar layar antara 577px dan 991px) */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  /* hero start */
+  .hero {
+    background-position: 75%;
+  }
+  .hero .left-column {
+    flex: 1 70%;
+  }
+  /* hero end */
+  /* about start */
+  .about .left-column {
+    margin-right: 2rem;
+  }
+  .about .right-column .tab-content .skills i {
+    padding: 10px;
+  }
+  .right-column .tab-content .container ul li a {
+    margin: 0 10px;
+    display: flex;
+    padding: 10px 1rem;
+  }
+  /* about end */
+
+  /* project */
+  .project {
+    margin: 2rem 0;
+  }
+  .project .container {
+    margin: 3em 0;
+    padding: 0;
+  }
+  .project .col .teks ul li i {
+    border-radius: 20%;
+    font-size: 1rem;
+  }
+  .project .col .teks p {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .project .col .teks i {
+    padding: 14px;
+  }
+  /* project end */
+  /* contact start */
+  .contact {
+    margin: 2rem 0;
+  }
+  .contact .left-column h3 {
+    font-size: 2rem;
+  }
+  /* contact end */
+}
+
+/* Breakpoint untuk PC (lebar layar 992px atau lebih) */
+@media (min-width: 992px) {
+}
