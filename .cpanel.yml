@@ -1,10 +1,10 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/n1779572/public_html/ilhammuhammad.my.id
+    - export DEPLOYPATH=/home/ilhx8814/public_html/
     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp -r css $DEPLOYPATH
-    - /bin/cp -r assets $DEPLOYPATH
-    - /bin/cp -r js $DEPLOYPATH
-    - /bin/cp -r pages $DEPLOYPATH
-    - /bin/cp -r post $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R pages $DEPLOYPATH
+    - /bin/cp -R post $DEPLOYPATH
