@@ -122,7 +122,6 @@ body {
   width: 100%;
   border-radius: 1rem;
   transition: transform 0.7s ease-out;
-  box-shadow: 0 0 1rem rgb(255, 255, 255);
 }
 .left-column img:hover {
   transform: scale(1.2);
