@@ -6,13 +6,9 @@
     background-position: 65%;
   }
   .hero .container {
-    background-image: url(../assets/images/hero2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    height: fit-content;
+    background-image: url(../assets/images/contact.png);
+    background-position: 40%;
+    height: 60vh;
   }
   .hero .left-column {
     flex: 1 80%;
