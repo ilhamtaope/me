@@ -5,6 +5,15 @@
   .hero {
     background-position: 65%;
   }
+  .hero .container {
+    background-image: url(../assets/images/hero2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+  }
   .hero .left-column {
     flex: 1 80%;
   }

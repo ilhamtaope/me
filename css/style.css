@@ -49,9 +49,8 @@ body {
 }
 /* navbar end */
 /* hero start*/
-
 .hero {
-  background-image: url(../assets/images/hero.png);
+  background-image: url(../assets/images/hero1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -61,6 +60,15 @@ body {
   justify-content: center;
   height: 100vh;
 }
+.hero .container {
+  background-image: url(../assets/images/hero2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
 
 .hero .left-column {
   margin-top: 4rem;
@@ -68,6 +76,10 @@ body {
 }
 
 .hero .left-column h1 {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+.hero .left-column h2 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
   font-weight: 700;
