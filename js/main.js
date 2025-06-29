@@ -20,3 +20,24 @@ submit.addEventListener("click", function (e) {
     alert("Success! Your response has been successfully received.");
   }
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const text = "Muhammad Ilham";
+  const target = document.getElementById("typed-name");
+  let i = 0;
+
+  function type() {
+    if (i < text.length) {
+      target.innerHTML += text.charAt(i);
+      i++;
+      setTimeout(type, 100);
+    } else {
+      setTimeout(() => {
+        target.innerHTML = "";
+        i = 0;
+        type();
+      }, 1200);
+    }
+  }
+
+  type();
+});
