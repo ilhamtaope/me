@@ -4,7 +4,7 @@ const message = document.getElementById("message");
 const submit = document.getElementById("submit");
 
 submit.addEventListener("click", function (e) {
-  e.preventDefault;
+  e.preventDefault();
   const nameValue = nama.value;
   const emailValue = email.value;
   const messageValue = message.value;
@@ -20,6 +20,7 @@ submit.addEventListener("click", function (e) {
     alert("Success! Your response has been successfully received.");
   }
 });
+
 document.addEventListener("DOMContentLoaded", function () {
   const text = "Muhammad Ilham";
   const target = document.getElementById("typed-name");
